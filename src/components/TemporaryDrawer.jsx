@@ -56,9 +56,9 @@ export default function TemporaryDrawer() {
         >
             <List>
                 {['Новости', 'Список на грант', 'Статьи', 'FAQ'].map((text, index) => (
-                    <ListItem button key={text} onClick={handlePageChange(text, index)}>
+                    <ListItem button key={text}>
                         <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <ListItemText primary={text} />
+                        <Button  onClick={handlePageChange(text, index)}>{text}</Button>
                     </ListItem>
                 ))}
             </List>

@@ -25,7 +25,7 @@ class Abitur extends Component {
         return (
             <div style={{margin: 30}}>
                 <Typography variant="h5" gutterBottom>
-                    List of pretendents for grant
+                    Список претендентов на грант
                 </Typography>
                 <TableContainer component={Paper}>
                     <Table size="small" aria-label="a dense table">

@@ -14,14 +14,17 @@ class Main extends Component {
     render() {
         return (
             <div className="main-wrapper">
-                <div className="container">
+                <div className="main">
+
+                    <div className="wrapper">
                     <div className="main-title">
                         <Typography variant="h2" gutterBottom>
                             International Information Technology University
                         </Typography>
                     </div>
+                    
                     <div className="main-content">
-                        <Card className={{minWidth: 275}}>
+                        <Card className='card1'>
                             <CardContent>
                                 <div className="main-content-col">
                                     <Typography variant="h4" gutterBottom>
@@ -37,7 +40,7 @@ class Main extends Component {
 
                             </CardActions>
                         </Card>
-                        <Card className={{minWidth: 275}}>
+                        <Card className='card2'>
                             <CardContent>
                                 <div className="main-content-col">
                                     <Typography variant="h4" gutterBottom>
@@ -52,10 +55,25 @@ class Main extends Component {
                                 
                             </CardActions>
                         </Card>
-                        
+                        <Card className='card3'>
+                            <CardContent>
+                                <div className="main-content-col">
+                                    <Typography variant="h4" gutterBottom>
+                                        Университетский языковой центр Lingua 
+                                    </Typography>
+                                    <Typography variant="subtitle1">
+                                        Языковой центр "LINGUA" при Международном университете информационных технологий приглашает вас на курсы английского, казахского, русского, корейского, китайского языков.
+                                    </Typography>
+                                </div>
+                            </CardContent>
+                            <CardActions>
+                                
+                            </CardActions>
+                        </Card>
                     </div>
-                    <div className="main-footer">
-
+                    </div>
+                    <div className="kartinka">
+                        <img src="learn.png" alt=""/>
                     </div>
                 </div>
             </div>

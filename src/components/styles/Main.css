@@ -4,20 +4,55 @@
     justify-content: center;
 }
 
-.container {
-    width: 70%;
+.main {
+    width: 100%;
+    display: flex;
+
+}
+
+.wrapper {
+    width: 50%;
+}
+
+.kartinka {
+    width: 50%;
+    transform: translateY(12%);
+}
+
+.kartinka img {
+    width: 100%;
+
 }
 
 .main-title {
-    margin: 40px;
+    margin-top: 40px;
     margin-bottom: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 .main-content {
-    display: flex;
-    justify-content: space-evenly;
+    width: 80%;
+    left: 30%;
+    position: relative;
+    margin-top: 200px;
 }
 
 .main-content-col {
     margin: 10px;
+}
+
+.card1 {
+    
+    transform: translate(-30%);
+}
+
+.card2 {
+    transform: translate(-15%,-15%);
+}
+
+.card3 {
+    transform: translate(5%, -25%)
 }
