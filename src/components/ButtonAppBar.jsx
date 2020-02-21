@@ -49,7 +49,7 @@ export default function ButtonAppBar() {
             <Button className={classes.buttons} onClick={() => setRenderInd(1) }>Главная</Button>
             <Button className={classes.buttons} onClick={() => setRenderInd(2)}>Претенденты на грант</Button>
             <Button className={classes.buttons} onClick={() => setRenderInd(3)}>Статьи</Button>
-            <Button className={classes.buttons} onClick={() => setRenderInd(4)}>FAQ</Button>
+            {/* <Button className={classes.buttons} onClick={() => setRenderInd(4)}>FAQ</Button> */}
 
           </div>
           <Button style={{float: 'right'}} color="inherit" onClick={()=>setRenderInd(6)}>Sign up</Button>
